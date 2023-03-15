@@ -4,8 +4,9 @@
 [![NPM Downloads](https://img.shields.io/npm/dm/tinguir.svg?style=flat)](https://www.npmjs.com/package/tinguir)
 
 
+---
 
-# tinguir
+## tinguir
 
 verbo transitivo
 
@@ -14,6 +15,8 @@ verbo transitivo
 _Levou unha saia á tinturaría para tinguila de negro. Tinguiu o pelo._
 
 ---
+
+# Intro
 
 `tinguir` is just for coloring your texts using [ANSI escape codes](https://en.wikipedia.org/wiki/ANSI_escape_code).
 
