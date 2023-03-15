@@ -14,7 +14,8 @@
     "lint": "eslint ./src/**.mjs",
     "lib": "npm run clean-lib && npx babel ./src/index.mjs -o ./lib/index.cjs",
     "test": "node ./test/index.mjs",
-    "prepare": "npm run lint && npm run lib && npm run test"
+    "site": "npx arredemo build",
+    "prepare": "npm run lint && npm run lib && npm run test && npm run site"
   },
   "files": [
     "lib",
