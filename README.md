@@ -8,11 +8,11 @@
 
 ---
 
-> tinguir:
+> **tinguir**:
 
 > verbo transitivo
 
-> 1 Darlle a [algo] unha determinada cor distinta da que tiña, particularmente mediante tintura. 
+> **1** Darlle a [algo] unha determinada cor distinta da que tiña, particularmente mediante tintura. 
 
 > _Levou unha saia á tinturaría para tinguila de negro. Tinguiu o pelo._
 
