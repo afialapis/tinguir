@@ -1,0 +1,44 @@
+{
+  "name": "tinguir",
+  "version": "0.0.1",
+  "description": "Colourize your texts",
+  "type": "module",
+  "main": "src/index.mjs",
+  "exports": {
+    "import": "./src/index.mjs",
+    "default": "./lib/index.cjs"
+  },
+  "scripts": {
+    "clean-lib": "rm -fr lib && mkdir lib",
+    "reset": "npm run clean-lib && rm -fr package-lock.json && rm -fr node_modules && npm i",
+    "lint": "eslint ./src/**.mjs",
+    "lib": "npm run clean-lib && npx babel ./src/index.mjs -o ./lib/index.cjs",
+    "test": "node ./test/index.mjs",
+    "prepare": "npm run lint && npm run lib && npm run test"
+  },
+  "files": [
+    "lib",
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afialapis/tinguir.git"
+  },
+  "author": "donato@afialapis.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/afialapis/tinguir/issues"
+  },
+  "homepage": "https://github.com/afialapis/tinguir#readme",
+  "dependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.3",
+    "@babel/eslint-parser": "^7.21.3",
+    "@babel/preset-env": "^7.20.2",
+    "eslint": "^8.36.0"
+  },
+  "devDependencies": {
+    "@babel/node": "^7.20.7",
+    "@babel/register": "^7.21.0"
+  }
+}
