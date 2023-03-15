@@ -1,7 +1,7 @@
 {
   "name": "tinguir",
-  "version": "0.0.1",
-  "description": "Colourize your texts",
+  "version": "0.0.2",
+  "description": "Colorize your texts",
   "type": "module",
   "main": "src/index.mjs",
   "exports": {
@@ -14,8 +14,7 @@
     "lint": "eslint ./src/**.mjs",
     "lib": "npm run clean-lib && npx babel ./src/index.mjs -o ./lib/index.cjs",
     "test": "node ./test/index.mjs",
-    "site": "npx xeira site",
-    "prepare": "npm run lint && npm run lib && npm run test && npm run site"
+    "prepare": "npm run lint && npm run lib && npm run test"
   },
   "files": [
     "lib",
