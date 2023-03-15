@@ -1,7 +1,3 @@
-# tinguir
-Put some color on your texts
-
-
 ![tinguir logo](https://tinguir.afialapis.com/logo.png)
 
 [![NPM Version](https://badge.fury.io/js/tinguir.svg)](https://www.npmjs.com/package/tinguir)
