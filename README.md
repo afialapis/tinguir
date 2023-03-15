@@ -8,7 +8,7 @@
 
 ---
 
-> **tinguir**:
+> **tinguir**. Verbo transitivo:
 
 > **1** Darlle a [algo] unha determinada cor distinta da que tiña, particularmente mediante tintura. 
 
