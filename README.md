@@ -4,29 +4,28 @@
 [![NPM Downloads](https://img.shields.io/npm/dm/tinguir.svg?style=flat)](https://www.npmjs.com/package/tinguir)
 
 
+# tinguir
+
 ---
 
-## tinguir
-
-verbo transitivo
-
+> tinguir:
+> verbo transitivo
 > 1 Darlle a [algo] unha determinada cor distinta da que tiña, particularmente mediante tintura. 
-
-_Levou unha saia á tinturaría para tinguila de negro. Tinguiu o pelo._
+> _Levou unha saia á tinturaría para tinguila de negro. Tinguiu o pelo._
 
 ---
 
-# Intro
+## Intro
 
 `tinguir` is just for coloring your texts using [ANSI escape codes](https://en.wikipedia.org/wiki/ANSI_escape_code).
 
-# Install
+## Install
 
 ```
   npm i tinguir
 ```
 
-# Usage
+## Usage
 
 ```js
 import {magenta_bold} from 'tinguir'
@@ -35,9 +34,9 @@ console.log( magenta_bold()'This text will be magenta and bolded!) )
 
 ```
 
-# API
+## API
 
-## Color functions
+### Color functions
 
 Available colors are:
 
@@ -105,6 +104,6 @@ Available colors are:
   - `gray_invert`
   - `gray_strike`
 
-## `uncolor`
+### `uncolor`
 
 There's also `uncolor(colored_string)` function, which servers for, surprise, remove color escape codes from a string.
