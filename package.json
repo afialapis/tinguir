@@ -31,15 +31,13 @@
     "url": "https://github.com/afialapis/tinguir/issues"
   },
   "homepage": "https://github.com/afialapis/tinguir#readme",
-  "dependencies": {
+  "devDependencies": {
     "@babel/cli": "^7.21.0",
     "@babel/core": "^7.21.3",
     "@babel/eslint-parser": "^7.21.3",
-    "@babel/preset-env": "^7.20.2",
-    "eslint": "^8.36.0"
-  },
-  "devDependencies": {
     "@babel/node": "^7.20.7",
-    "@babel/register": "^7.21.0"
+    "@babel/preset-env": "^7.20.2",
+    "@babel/register": "^7.21.0",
+    "eslint": "^8.36.0"    
   }
 }
