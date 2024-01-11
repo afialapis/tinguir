@@ -30,7 +30,7 @@
   "bugs": {
     "url": "https://github.com/afialapis/tinguir/issues"
   },
-  "homepage": "https://github.com/afialapis/tinguir#readme",
+  "homepage": "https://www.afialapis.com/os/tinguir",
   "devDependencies": {
     "@babel/cli": "^7.23.0",
     "@babel/core": "^7.23.2",

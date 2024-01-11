@@ -2,8 +2,9 @@
   "theme": "default",
   "favicon": "./logo/favicon/tinguir.png",
   "logo": "./logo/tinguir.png",
+  "url": "https://www.afialapis.com/os/tinguir",
   "company": "Afialapis",
-  "url": "tinguir.afialapis.com",
+  "company_url": "https://www.afialapis.com",
   "doc_versions": null,
   "demo_entry": null
 }
