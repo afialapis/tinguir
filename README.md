@@ -1,4 +1,4 @@
-![tinguir logo](https://www.afialapis.com/os/tinguir/logo.png)
+![tinguir logo](https://github.com/afialapis/tinguir/blob/main/logo/favicon/tinguir.png?raw=true)
 
 [![NPM Version](https://badge.fury.io/js/tinguir.svg)](https://www.npmjs.com/package/tinguir)
 [![NPM Downloads](https://img.shields.io/npm/dm/tinguir.svg?style=flat)](https://www.npmjs.com/package/tinguir)
