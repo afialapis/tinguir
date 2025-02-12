@@ -8,7 +8,7 @@
 
 ---
 
-> **tinguir**. Verbo transitivo:
+> **[tinguir](https://academia.gal/dicionario/-/termo/tinguir)**. Verbo transitivo:
 
 > **1** Darlle a [algo] unha determinada cor distinta da que tiña, particularmente mediante tintura. 
 
@@ -39,71 +39,25 @@ console.log( magenta_bold()'This text will be magenta and bolded!) )
 
 ### Color functions
 
+
 Available colors are:
 
-  - `black`
-  - `black_bold`
-  - `black_light`
-  - `black_italic`
-  - `black_under`
-  - `black_invert`
-  - `black_strike`
-  - `red`
-  - `red_bold`
-  - `red_light`
-  - `red_italic`
-  - `red_under`
-  - `red_invert`
-  - `red_strike`
-  - `green`
-  - `green_bold`
-  - `green_light`
-  - `green_italic`
-  - `green_under`
-  - `green_invert`
-  - `green_strike`
-  - `yellow`
-  - `yellow_bold`
-  - `yellow_light`
-  - `yellow_italic`
-  - `yellow_under`
-  - `yellow_invert`
-  - `yellow_strike`
-  - `blue`
-  - `blue_bold`
-  - `blue_light`
-  - `blue_italic`
-  - `blue_under`
-  - `blue_invert`
-  - `blue_strike`
-  - `magenta`
-  - `magenta_bold`
-  - `magenta_light`
-  - `magenta_italic`
-  - `magenta_under`
-  - `magenta_invert`
-  - `magenta_strike`
-  - `cyan`
-  - `cyan_bold`
-  - `cyan_light`
-  - `cyan_italic`
-  - `cyan_under`
-  - `cyan_invert`
-  - `cyan_strike`
-  - `white`
-  - `white_bold`
-  - `white_light`
-  - `white_italic`
-  - `white_under`
-  - `white_invert`
-  - `white_strike`
-  - `gray`
-  - `gray_bold`
-  - `gray_light`
-  - `gray_italic`
-  - `gray_under`
-  - `gray_invert`
-  - `gray_strike`
+![tinguir colors](https://github.com/afialapis/tinguir/blob/main/tinguir_colors.png?raw=true)
+
+
+| Solid          | Bold           | Light          | Italic           | Underline       | Invert           | Strike           |
+| -------------- | -------------- | -------------- | ---------------- | --------------- | ---------------- | ---------------- |
+| `black`        | `black_bold`   | `black_light`  | `black_italic`   | `black_under`   | `black_invert`   | `black_strike`   |
+| `red`          | `red_bold`     | `red_light`    | `red_italic`     | `red_under`     | `red_invert`     | `red_strike`     |
+| `green`        | `green_bold`   | `green_light`  | `green_italic`   | `green_under`   | `green_invert`   | `green_strike`   |
+| `yellow`       | `yellow_bold`  | `yellow_light` | `yellow_italic`  | `yellow_under`  | `yellow_invert`  | `yellow_strike`  |
+| `blue`         | `blue_bold`    | `blue_light`   | `blue_italic`    | `blue_under`    | `blue_invert`    | `blue_strike`    |
+| `magenta`      | `magenta_bold` | `magenta_light`| `magenta_italic` | `magenta_under` | `magenta_invert` | `magenta_strike` |
+| `cyan`         | `cyan_bold`    | `cyan_light`   | `cyan_italic`    | `cyan_under`    | `cyan_invert`    | `cyan_strike`    |
+| `white`        | `white_bold`   | `white_light`  | `white_italic`   | `white_under`   | `white_invert`   | `white_strike`   |
+| `gray`         | `gray_bold`    | `gray_light`   | `gray_italic`    | `gray_under`    | `gray_invert`    | `gray_strike`    |
+
+
 
 ### `uncolor`
 
