@@ -1,25 +1,26 @@
 {
   "name": "tinguir",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Colorize your texts",
   "type": "module",
   "main": "src/index.mjs",
   "exports": {
     "import": "./src/index.mjs",
-    "default": "./lib/index.cjs"
+    "default": "./dist/tinguir.cjs"
   },
   "scripts": {
-    "clean-lib": "rm -fr lib && mkdir lib",
-    "reset": "npm run clean-lib && rm -fr package-lock.json && rm -fr node_modules && npm i",
+    "clean-dist": "rm -fr dist && mkdir dist",
+    "reset": "npm run clean-dist && rm -fr package-lock.json && rm -fr node_modules && npm i",
     "lint": "eslint ./src/**.mjs",
-    "lib": "npm run clean-lib && npx babel ./src/index.mjs -o ./lib/index.cjs",
+    "dist": "npm run clean-dist && npx babel ./src/index.mjs -o ./dist/tinguir.cjs && cp ./src/index.mjs ./dist/tinguir.mjs",
     "test": "node ./test/index.mjs",
     "site": "npx arredemo build",
-    "prepare": "npm run lint && npm run lib && npm run test && npm run site"
+    "prepare": "npm run lint && npm run dist && npm run test && npm run site"
   },
   "files": [
-    "lib",
-    "src"
+    "dist",
+    "src",
+    ".babelrc"
   ],
   "repository": {
     "type": "git",
