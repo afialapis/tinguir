@@ -1,3 +1,11 @@
+/*!
+ * tinguir v0.0.7
+ * (c) 2025 afialapis.com
+ * Released under the MIT License
+ * 
+ * https://www.afialapis.com/os/tinguir/
+ */
+
 const _code = (mod, num_code) => `\u001b[${mod}${num_code}m`;
 const _reset= `\u001b[0;39m`;
 
